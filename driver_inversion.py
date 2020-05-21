@@ -185,8 +185,8 @@ if __name__=="__main__":
 	data_dir='./Input/'
 
 	# =========================== hdf5 files ======================= 
-	hdf_pfile=data_dir+'fault_param_25km_Jagurs.h5'
-	hdf_gfile=data_dir+'Alaska_GFs_25km_Jagurs.h5'
+	hdf_pfile=data_dir+'fault_param.h5'
+	hdf_gfile=data_dir+'GFs_Alaska.h5'
 	rem_grd=[0, 10,20, 30, 40, 50, 9,19,29,39,49,59]
 
 	hdf_ofile=data_dir+'observation_Alaska.h5'
@@ -228,7 +228,7 @@ if __name__=="__main__":
 	final_time=4*3600	
 
 
-	dem_file=data_dir+'gebco_Alaska.grd'
+	dem_file=data_dir+'Gebco_Alaska.grd'
 	# ================== main source inversion =====================
 	
 	# ---------------- removed source patches ------------------
